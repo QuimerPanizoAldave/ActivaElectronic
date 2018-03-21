@@ -223,23 +223,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                      <p class="footer-grid">Copyright &copy; 2018 Activa Electronic desarollado por <a href="http://suprasac.com/" target="_blank">Supra soluciones S.A.C</a> </p>
                     
                 </div>  
-                 <script type="text/javascript">
-                        $(document).ready(function() {
-                            /*
-                            var defaults = {
-                                containerID: 'toTop', // fading element id
-                                containerHoverID: 'toTopHover', // fading element hover id
-                                scrollSpeed: 1200,
-                                easingType: 'linear' 
-                            };
-                            */
-                            
-                            $().UItoTop({ easingType: 'easeOutQuart' });
-                            
-                        });
-                    </script>
-                <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 
+                <a href="https://api.whatsapp.com/send?phone=966867023&text=Consulte su Requerimiento o llamenes, 966867023" id="toTop" style="display: block;" target="_blank"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+                
             </div>
             <!-- JavaScript Libraries -->
             {!!Html::script('lib/jquery/jquery.min.js')!!}

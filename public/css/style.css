@@ -1,5 +1,8 @@
 body{
-	background:#fff url(../images/0205.jpg) repeat fixed;
+	background:#fff url(../images/0205.jpg) no-repeat ;
+ background-position: center;
+ background-size: cover;
+
 	color:#212121;
 	font:14px/22px 'Roboto Condensed', sans-serif;
 }

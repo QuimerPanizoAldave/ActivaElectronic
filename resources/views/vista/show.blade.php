@@ -85,7 +85,6 @@
 				<li>
 					<a href="#tab-specification">Ficha tecnica</a>
 				</li>
-				<li><a href="#tab-ainfo">Diagrama de Instalacion</a></li>
 			</ul>
 		<!-- Nav Tabs Ends -->
 		<!-- Tab Content Starts -->
