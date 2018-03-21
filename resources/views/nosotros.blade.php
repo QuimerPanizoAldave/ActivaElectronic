@@ -19,7 +19,7 @@
 				<div class="page-box">
 					<div class="row">
 						<div class="col-sm-4">
-							<img src="" alt="image" class="img-responsive" "/>
+							<img src="images/contc1.png" alt="image" class="img-responsive" "/>
 							<!--style="height: 300px;width: 260px; -->
 						</div>
 						<div class="col-sm-8">
