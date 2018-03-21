@@ -28,7 +28,7 @@ return [
     |
     */
 
-    'host' => env('MAIL_HOST', 'mail.suprasac.com'),
+    'host' => env('MAIL_HOST', '	mail.activaelectronic.pe'),
 
     /*
     |--------------------------------------------------------------------------
@@ -54,7 +54,7 @@ return [
     |
     */
 
-    'from' => ['address' => 'ventas@suprasac.com', 'name' => 'Supra Soluciones Sac' ],
+    'from' => ['address' => 'ventas@activaelectronic.pe', 'name' => 'Activa Electronic ' ],
 
     /*
     |--------------------------------------------------------------------------
@@ -80,7 +80,7 @@ return [
     |
     */
 
-    'username' => env('ventas@suprasac.com'),
+    'username' => env('ventas@activaelectronic.pe'),
 
     /*
     |--------------------------------------------------------------------------
@@ -93,7 +93,7 @@ return [
     |
     */
 
-    'password' => env('chiquian10'),
+    'password' => env('1t6GzxsmH4Qa'),
 
     /*
     |--------------------------------------------------------------------------
