@@ -62,36 +62,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
          {!!Html::style('css/owl.carousel.css')!!}
          {!!Html::style('css/style.css')!!}
          {!!Html::style('css/responsive.css')!!}
-         
-<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
-<link rel="stylesheet" type="text/css" href="css/style-icon.css" />
-<link rel="shortcut icon" href="imagenes/icon.png" type="image/x-icon" />
-
-  <!--[if lt IE 9]>
-    <script src="js/ie8-responsive-file-warning.js"></script>
-  <![endif]-->
-
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-     {!!Html::style('css/slideshow.css')!!}
-      {!!Html::style('css/carousel.css')!!}
+         {!!Html::style('css/slideshow.css')!!}
+         {!!Html::style('css/carousel.css')!!}
 
   <!-- Fav and touch icons -->
     {!!Html::style('images/fav-144.png')!!}
     {!!Html::style('images/fav-72.png')!!}
-{!!Html::style('images/fav-57.png')!!}
-{!!Html::style('images/fav.png')!!}
-
-
-  <link rel="apple-touch-icon-precomposed" href="images/fav-57.png">
-  <link rel="shortcut icon" href="images/fav.png">
-
+    {!!Html::style('images/fav-57.png')!!}
+    {!!Html::style('images/fav.png')!!}
   {!!Html::style('./slick/slick.css')!!}
   {!!Html::style('./slick/slick-theme.css')!!}
+  
+  {!! Html::favicon('imagenes/icon.png') !!}
 
     <style type="text/css">
     html, body {
