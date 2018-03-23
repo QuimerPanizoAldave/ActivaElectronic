@@ -28,7 +28,7 @@ return [
     |
     */
 
-    'model' => suprasac\User::class,
+    'model' => ActivaElectronic\User::class,
 
     /*
     |--------------------------------------------------------------------------

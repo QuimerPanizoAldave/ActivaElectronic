@@ -1,6 +1,6 @@
 <?php
 
-namespace suprasac\Http\Middleware;
+namespace ActivaElectronic\Http\Middleware;
 use Illuminate\Contracts\Auth\Guard;
 use Closure;
 use Session;

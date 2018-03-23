@@ -1,6 +1,6 @@
 <?php
 
-namespace suprasac\Jobs;
+namespace ActivaElectronic\Jobs;
 
 use Illuminate\Bus\Queueable;
 

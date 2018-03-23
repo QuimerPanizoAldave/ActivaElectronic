@@ -13,7 +13,7 @@
 
 // funcion de busqueda de slug---inyeccion de dependencias
 Route::bind('productos', function($slug){
-	return suprasac\Producto::where('slug',$slug)->first();
+	return ActivaElectronic\Producto::where('slug',$slug)->first();
 });
 
 Route::get('/', 'FrontController@index');

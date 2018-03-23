@@ -30,7 +30,7 @@ return [
     ],
 
     'stripe' => [
-        'model'  => suprasac\User::class,
+        'model'  => ActivaElectronic\User::class,
         'key'    => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ],

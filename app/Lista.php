@@ -1,6 +1,6 @@
 <?php
 
-namespace suprasac;
+namespace ActivaElectronic;
 
 use Illuminate\Database\Eloquent\Model;
 use Carbon\Carbon;
@@ -60,6 +60,6 @@ class Lista extends Model
    
    public function order_item()
    {
-    return $this->hasOne('suprasac\OrderItem');
+    return $this->hasOne('ActivaElectronic\OrderItem');
    }
 }

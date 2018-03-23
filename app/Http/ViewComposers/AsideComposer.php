@@ -1,10 +1,10 @@
 <?php
 
-namespace suprasac\Http\ViewComposers;
+namespace ActivaElectronic\Http\ViewComposers;
 
 use Iluminate\Contracts\View\View;
-use suprasac\Categoria;
-use suprasac\Productos;
+use ActivaElectronic\Categoria;
+use ActivaElectronic\Productos;
 
 class AsideComposer{
 

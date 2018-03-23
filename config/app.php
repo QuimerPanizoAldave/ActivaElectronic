@@ -141,10 +141,10 @@ return [
         /*
          * Application Service Providers...
          */
-        suprasac\Providers\AppServiceProvider::class,
-        suprasac\Providers\AuthServiceProvider::class,
-        suprasac\Providers\EventServiceProvider::class,
-        suprasac\Providers\RouteServiceProvider::class,
+        ActivaElectronic\Providers\AppServiceProvider::class,
+        ActivaElectronic\Providers\AuthServiceProvider::class,
+        ActivaElectronic\Providers\EventServiceProvider::class,
+        ActivaElectronic\Providers\RouteServiceProvider::class,
         suprasac\providers\ComposerServiceProvider::class,
         Barryvdh\DomPDF\ServiceProvider::class,
 

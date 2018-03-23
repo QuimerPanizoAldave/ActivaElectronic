@@ -1,6 +1,6 @@
 <?php
 
-namespace suprasac\Console\Commands;
+namespace ActivaElectronic\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Foundation\Inspiring;

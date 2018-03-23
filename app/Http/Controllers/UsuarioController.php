@@ -1,15 +1,15 @@
 <?php
 
-namespace suprasac\Http\Controllers;
+namespace ActivaElectronic\Http\Controllers;
 
 use Illuminate\Http\Request;
-use suprasac\Http\Requests\UserCreateRequest;
-use suprasac\Http\Requests\UserUpdateRequest;
-use suprasac\User;
+use ActivaElectronic\Http\Requests\UserCreateRequest;
+use ActivaElectronic\Http\Requests\UserUpdateRequest;
+use ActivaElectronic\User;
 use Redirect;
 use Session;
-use suprasac\Http\Requests;
-use suprasac\Http\Controllers\Controller;
+use ActivaElectronic\Http\Requests;
+use ActivaElectronic\Http\Controllers\Controller;
 use Illuminate\Routing\Route;
 
 class UsuarioController extends Controller

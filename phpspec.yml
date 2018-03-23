@@ -1,5 +1,5 @@
 suites:
     main:
-        namespace: suprasac
-        psr4_prefix: suprasac
+        namespace: ActivaElectronic
+        psr4_prefix: ActivaElectronic
         src_path: app

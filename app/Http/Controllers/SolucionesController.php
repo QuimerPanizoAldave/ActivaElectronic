@@ -1,12 +1,12 @@
 <?php
 
-namespace suprasac\Http\Controllers;
+namespace ActivaElectronic\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use suprasac\Http\Requests;
-use suprasac\Http\Controllers\Controller;
-use suprasac\Soluciones;
+use ActivaElectronic\Http\Requests;
+use ActivaElectronic\Http\Controllers\Controller;
+use ActivaElectronic\Soluciones;
 use Session;
 use Redirect;
 use Illuminate\Routing\Route;

@@ -1,6 +1,6 @@
 <?php
 
-namespace suprasac;
+namespace ActivaElectronic;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -17,7 +17,7 @@ public function user()
 
 public function order_items()
 {
-	return $this->hasMany('suprasac\OrderItem');
+	return $this->hasMany('ActivaElectronic\OrderItem');
 }
 
 

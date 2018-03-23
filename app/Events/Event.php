@@ -1,6 +1,6 @@
 <?php
 
-namespace suprasac\Events;
+namespace ActivaElectronic\Events;
 
 abstract class Event
 {

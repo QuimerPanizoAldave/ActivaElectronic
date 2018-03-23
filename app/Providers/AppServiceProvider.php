@@ -1,6 +1,6 @@
 <?php
 
-namespace suprasac\Providers;
+namespace ActivaElectronic\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

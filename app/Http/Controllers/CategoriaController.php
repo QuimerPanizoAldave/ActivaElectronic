@@ -1,12 +1,12 @@
 <?php
 
-namespace suprasac\Http\Controllers;
+namespace ActivaElectronic\Http\Controllers;
 
 use Illuminate\Http\Request;
-use suprasac\Categoria;
-use suprasac\Http\Requests;
-use suprasac\Http\Requests\CategoriaRequest;
-use suprasac\Http\Controllers\Controller;
+use ActivaElectronic\Categoria;
+use ActivaElectronic\Http\Requests;
+use ActivaElectronic\Http\Requests\CategoriaRequest;
+use ActivaElectronic\Http\Controllers\Controller;
 use Illuminate\Routing\Route;
 class CategoriaController extends Controller
 {

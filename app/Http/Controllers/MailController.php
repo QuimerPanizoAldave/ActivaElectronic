@@ -1,14 +1,14 @@
 <?php
 
-namespace suprasac\Http\Controllers;
+namespace ActivaElectronic\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Mail;
 use Session;
 use Redirect;
 use Order;
-use suprasac\Http\Requests;
-use suprasac\Http\Controllers\Controller;
+use ActivaElectronic\Http\Requests;
+use ActivaElectronic\Http\Controllers\Controller;
 
 class MailController extends Controller
 {

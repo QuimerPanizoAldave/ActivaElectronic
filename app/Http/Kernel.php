@@ -1,6 +1,6 @@
 <?php
 
-namespace suprasac\Http;
+namespace ActivaElectronic\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
@@ -13,11 +13,11 @@ class Kernel extends HttpKernel
      */
     protected $middleware = [
         \Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode::class,
-        \suprasac\Http\Middleware\EncryptCookies::class,
+        \ActivaElectronic\Http\Middleware\EncryptCookies::class,
         \Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse::class,
         \Illuminate\Session\Middleware\StartSession::class,
         \Illuminate\View\Middleware\ShareErrorsFromSession::class,
-        \suprasac\Http\Middleware\VerifyCsrfToken::class,
+        \ActivaElectronic\Http\Middleware\VerifyCsrfToken::class,
     ];
 
     /**
@@ -26,9 +26,9 @@ class Kernel extends HttpKernel
      * @var array
      */
     protected $routeMiddleware = [
-        'auth' => \suprasac\Http\Middleware\Authenticate::class,
+        'auth' => \ActivaElectronic\Http\Middleware\Authenticate::class,
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
-        'guest' => \suprasac\Http\Middleware\RedirectIfAuthenticated::class,
-        'admin'=>\suprasac\Http\Middleware\Admin::class,
+        'guest' => \ActivaElectronic\Http\Middleware\RedirectIfAuthenticated::class,
+        'admin'=>\ActivaElectronic\Http\Middleware\Admin::class,
     ];
 }

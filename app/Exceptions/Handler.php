@@ -1,6 +1,6 @@
 <?php
 
-namespace suprasac\Exceptions;
+namespace ActivaElectronic\Exceptions;
 
 use Exception;
 use Illuminate\Database\Eloquent\ModelNotFoundException;

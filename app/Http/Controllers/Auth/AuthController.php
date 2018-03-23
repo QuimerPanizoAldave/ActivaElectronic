@@ -1,10 +1,10 @@
 <?php
 
-namespace suprasac\Http\Controllers\Auth;
+namespace ActivaElectronic\Http\Controllers\Auth;
 
-use suprasac\User;
+use ActivaElectronic\User;
 use Validator;
-use suprasac\Http\Controllers\Controller;
+use ActivaElectronic\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 

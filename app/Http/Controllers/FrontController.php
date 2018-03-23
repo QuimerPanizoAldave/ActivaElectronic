@@ -1,16 +1,16 @@
 <?php
 
-namespace suprasac\Http\Controllers;
+namespace ActivaElectronic\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use suprasac\Http\Requests;
-use suprasac\Http\Controllers\Controller;
-use suprasac\Producto;
-use suprasac\Categoria;
-use suprasac\Slider;
+use ActivaElectronic\Http\Requests;
+use ActivaElectronic\Http\Controllers\Controller;
+use ActivaElectronic\Producto;
+use ActivaElectronic\Categoria;
+use ActivaElectronic\Slider;
 use DB;
-use suprasac\User;
+use ActivaElectronic\User;
 use Carbon\Carbon;
 class FrontController extends Controller
 {

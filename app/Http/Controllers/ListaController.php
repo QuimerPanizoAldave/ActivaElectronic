@@ -1,13 +1,13 @@
 <?php
 
-namespace suprasac\Http\Controllers;
+namespace ActivaElectronic\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use suprasac\Categoria;
-use suprasac\Producto;
-use suprasac\Http\Requests;
-use suprasac\Http\Controllers\Controller;
+use ActivaElectronic\Categoria;
+use ActivaElectronic\Producto;
+use ActivaElectronic\Http\Requests;
+use ActivaElectronic\Http\Controllers\Controller;
 
 class ListaController extends Controller
 {

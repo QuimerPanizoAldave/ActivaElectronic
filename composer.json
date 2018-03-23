@@ -22,7 +22,7 @@
             "database"
         ],
         "psr-4": {
-            "suprasac\\": "app/"
+            "ActivaElectronic\\": "app/"
         }
     },
     "autoload-dev": {

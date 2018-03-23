@@ -1,8 +1,8 @@
 <?php
 
-namespace suprasac\Http\Requests;
+namespace ActivaElectronic\Http\Requests;
 
-use suprasac\Http\Requests\Request;
+use ActivaElectronic\Http\Requests\Request;
 
 class UserCreateRequest extends Request
 {

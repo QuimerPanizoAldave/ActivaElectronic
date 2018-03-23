@@ -1,6 +1,6 @@
 <?php
 
-namespace suprasac\Providers;
+namespace ActivaElectronic\Providers;
 
 use Illuminate\Routing\Router;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
@@ -14,7 +14,7 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    protected $namespace = 'suprasac\Http\Controllers';
+    protected $namespace = 'ActivaElectronic\Http\Controllers';
 
     /**
      * Define your route model bindings, pattern filters, etc.

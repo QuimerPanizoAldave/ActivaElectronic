@@ -1,6 +1,6 @@
 <?php
 
-namespace suprasac\Http\Middleware;
+namespace ActivaElectronic\Http\Middleware;
 
 use Illuminate\Cookie\Middleware\EncryptCookies as BaseEncrypter;
 

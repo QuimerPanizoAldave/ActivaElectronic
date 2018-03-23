@@ -1,6 +1,6 @@
 <?php
 
-namespace suprasac;
+namespace ActivaElectronic;
 use DB;
 
 use Illuminate\Database\Eloquent\Model;
@@ -17,7 +17,7 @@ class Categoria extends Model
     	->get();
     }
     public function Productos(){
-    	return $this->hasMany('suprasac\producto');
+    	return $this->hasMany('ActivaElectronic\producto');
     }
      public function scopeSearch($query, $marca){
         return $query->where('marca','LIKE',$marca);

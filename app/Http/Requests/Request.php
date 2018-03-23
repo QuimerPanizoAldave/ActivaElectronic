@@ -1,6 +1,6 @@
 <?php
 
-namespace suprasac\Http\Requests;
+namespace ActivaElectronic\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

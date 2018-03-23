@@ -1,6 +1,6 @@
 <?php
 
-namespace suprasac\Providers;
+namespace ActivaElectronic\Providers;
 
 use Illuminate\Contracts\Events\Dispatcher as DispatcherContract;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
@@ -13,8 +13,8 @@ class EventServiceProvider extends ServiceProvider
      * @var array
      */
     protected $listen = [
-        'suprasac\Events\SomeEvent' => [
-            'suprasac\Listeners\EventListener',
+        'ActivaElectronic\Events\SomeEvent' => [
+            'ActivaElectronic\Listeners\EventListener',
         ],
     ];
 

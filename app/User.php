@@ -1,6 +1,6 @@
 <?php
 
-namespace suprasac;
+namespace ActivaElectronic;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
@@ -61,7 +61,7 @@ class User extends Model implements AuthenticatableContract,
 
     public function orders()
     {
-        return $this->hasMany('suprasac\Order');
+        return $this->hasMany('ActivaElectronic\Order');
     }
 
 }

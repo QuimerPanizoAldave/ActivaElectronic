@@ -1,8 +1,8 @@
 <?php
 
-namespace suprasac\Http\Controllers\Auth;
+namespace ActivaElectronic\Http\Controllers\Auth;
 
-use suprasac\Http\Controllers\Controller;
+use ActivaElectronic\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ResetsPasswords;
 
 

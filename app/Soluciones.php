@@ -1,6 +1,6 @@
 <?php
 
-namespace suprasac;
+namespace ActivaElectronic;
 
 use Illuminate\Database\Eloquent\Model;
 use Carbon\Carbon;

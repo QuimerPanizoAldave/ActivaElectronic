@@ -1,6 +1,6 @@
 <?php
 
-namespace suprasac\Providers;
+namespace ActivaElectronic\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\View;
@@ -13,7 +13,7 @@ class ComposerServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        view::composer(['/'],'suprasac\Http\ViewComposers\AsideComposer');
+        view::composer(['/'],'ActivaElectronic\Http\ViewComposers\AsideComposer');
     }
 
     /**

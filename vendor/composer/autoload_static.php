@@ -21,10 +21,6 @@ class ComposerStaticInitd00331d242b813ef557abe8e63db862f
     );
 
     public static $prefixLengthsPsr4 = array (
-        's' => 
-        array (
-            'suprasac\\' => 9,
-        ),
         'p' => 
         array (
             'phpDocumentor\\Reflection\\' => 25,
@@ -97,13 +93,13 @@ class ComposerStaticInitd00331d242b813ef557abe8e63db862f
         array (
             'Barryvdh\\DomPDF\\' => 16,
         ),
+        'A' => 
+        array (
+            'ActivaElectronic\\' => 17,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'suprasac\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/app',
-        ),
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
@@ -249,6 +245,10 @@ class ComposerStaticInitd00331d242b813ef557abe8e63db862f
         'Barryvdh\\DomPDF\\' => 
         array (
             0 => __DIR__ . '/..' . '/barryvdh/laravel-dompdf/src',
+        ),
+        'ActivaElectronic\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app',
         ),
     );
 
