@@ -145,7 +145,7 @@ return [
         ActivaElectronic\Providers\AuthServiceProvider::class,
         ActivaElectronic\Providers\EventServiceProvider::class,
         ActivaElectronic\Providers\RouteServiceProvider::class,
-        suprasac\providers\ComposerServiceProvider::class,
+        ActivaElectronic\providers\ComposerServiceProvider::class,
         Barryvdh\DomPDF\ServiceProvider::class,
 
 
