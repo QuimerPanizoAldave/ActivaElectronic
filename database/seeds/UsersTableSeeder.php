@@ -14,6 +14,6 @@ class UsersTableSeeder extends Seeder
            DB::table('users')->insert([
             'name' => str_random(10),
             'email' => str_random(10).'administracion@suprasac.com',
-            'password' => 'chiquian10',
+            'password' => bcryp('chiquian10'),
     }
 }
